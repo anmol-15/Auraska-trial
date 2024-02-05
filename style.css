@@ -1196,32 +1196,28 @@ body {
 }
 
 .contact-block__info__form--name input {
-    padding: 1rem 3rem 1rem 3rem;
-    width: 100%;
+    padding-left: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid black;
 }
 
 .contact-block__info__form--email input {
-    padding: 1rem 3rem 1rem 3rem;
-    width: 100%;
+    padding-left: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid black;
 }
 
 .contact-block__info__form--subject input {
-    padding: 1rem 3rem 1rem 3rem;
-    width: 100%;
+    padding-left: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid black;
 }
 
 .contact-block__info__form--message input {
-    padding: 3rem 3rem 3rem 3rem;
-    width: 100%;
+    padding-left: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid black;
@@ -1335,6 +1331,25 @@ body {
 
     .footer-block__social-media {
         padding-top: 1rem;
+    }
+    .contact-block__info__form--name input {
+        height:50px;
+        width: 100%;
+    }
+    
+    .contact-block__info__form--email input {
+        height:50px;
+        width: 100%;
+    }
+    
+    .contact-block__info__form--subject input {
+        height:50px;
+        width: 100%;
+    }
+    
+    .contact-block__info__form--message input {
+        height:100px;
+        width: 100%;
     }
 }
 
@@ -1568,19 +1583,23 @@ body {
     }
 
     .contact-block__info__form--name input {
-        padding: 1rem 5rem 1rem 5rem;
+       width: 30rem;
+       height: 50px;
     }
 
     .contact-block__info__form--email input {
-        padding: 1rem 5rem 1rem 5rem;
+        width: 30rem;
+        height: 50px;
     }
 
     .contact-block__info__form--subject input {
-        padding: 1rem 5rem 1rem 5rem;
+        width: 30rem;
+        height: 50px;
     }
 
     .contact-block__info__form--message input {
-        padding: 3rem 5rem 3rem 5rem;
+        width: 30rem;
+        height: 100px;
     }
 
     .contact-block__info__form--button {
@@ -1590,38 +1609,42 @@ body {
 
 @media screen and (min-width: 1200px) {
     .indstries-block__cards__content--financial-sector p {
-        padding: 0.5rem 4rem 0.5rem 4rem;
+        padding: 0.5rem 3rem 0.5rem 3rem;
     }
 
     .indstries-block__cards__content--egovernance p {
-        padding: 0.5rem 4rem 0.5rem 4rem;
+        padding: 0.5rem 3rem 0.5rem 3rem;
     }
 
     .indstries-block__cards__content--ngos p {
-        padding: 0.5rem 4rem 0.5rem 4rem;
+        padding: 0.5rem 3rem 0.5rem 3rem;
     }
 
     .indstries-block__cards__content--manufacturing p {
-        padding: 0.5rem 4rem 0.5rem 4rem;
+        padding: 0.5rem 3rem 0.5rem 3rem;
     }
 
     .indstries-block__cards__content--telecommunication p {
-        padding: 0.5rem 4rem 0.5rem 4rem;
+        padding: 0.5rem 3rem 0.5rem 3rem;
     }
 
     .contact-block__info__form--name input {
-        padding: 1rem 15rem 1rem 15rem;
+      width: 50rem;
+      height: 50px;
     }
 
     .contact-block__info__form--email input {
-        padding: 1rem 15rem 1rem 15rem;
+        width: 50rem;
+        height: 50px;
     }
 
     .contact-block__info__form--subject input {
-        padding: 1rem 15rem 1rem 15rem;
+        width: 50rem;
+        height: 50px;
     }
 
     .contact-block__info__form--message input {
-        padding: 3rem 15rem 3rem 15rem;
+        width: 50rem;
+        height: 100px;
     }
 }
