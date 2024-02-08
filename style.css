@@ -425,7 +425,7 @@ body {
     border: 1px solid brown;
     border-radius: 10px 10px 10px 10px;
     margin-bottom: 3rem;
-    padding: 3rem 5rem 2rem 5rem;
+    padding: 3rem 1rem 2rem 1rem;
     text-align: center;
 }
 
@@ -1414,6 +1414,10 @@ body {
     .indstries-block__cards__content {
         display: flex;
         justify-content: space-around;
+    }
+
+    .industries-block__cards__financial {
+        padding: 3rem 5rem 2rem 5rem;
     }
 
     .indstries-block__cards__content--financial-sector p {
